@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <style>
+        /* Adicione estilos aqui, se desejar */
+    </style>
+</head>
+
+<body>
+    <img src="lalla.webp">
+    <div id="app">
+        <div class="form">
+            <h1>Verificador de Idade</h1>
+            <label for="dayInput">Dia:</label>
+            <input type="number" id="dayInput" min="1" max="31">
+            <label for="monthInput">Mês:</label>
+            <input type="number" id="monthInput" min="1" max="12">
+            <label for="yearInput">Ano:</label>
+            <input type="number" id="yearInput" min="1900" max="2100">
+            <br>
+            <button id="checkButton">Verificar Idade</button>
+            <button onclick="location.reload();">Resetar para outro usuário</button>
+            <p id="resultMessage"></p>
+        </div>
+
+
+
+        <script src="seu_arquivo_js.js"></script>
+</body>
+
+</html>
